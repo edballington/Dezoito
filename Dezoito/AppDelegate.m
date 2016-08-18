@@ -12,7 +12,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    //Register the default settings values for the first time the app is launched before they are set by the user
+    
+    NSDictionary *defaults = @{
+                               SOUND_EFFECTS_KEY : @YES,
+                               BACKGROUND_MUSIC_KEY : @YES,
+                               STOPWATCH_KEY : @YES,
+                               SOLUTION_GUIDE_KEY : @YES
+                               };
+    [[NSUserDefaults standardUserDefaults]registerDefaults:defaults];
+    
     return YES;
 }
 							

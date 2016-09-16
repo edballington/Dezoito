@@ -12,13 +12,13 @@
 		76328CBB1AEC623300227BE1 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76328CBA1AEC623300227BE1 /* Media.xcassets */; };
 		763B398D19625241009E82EB /* Puzzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 763B398C19625241009E82EB /* Puzzle.m */; };
 		76548F911CBF32570038FAEA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76548F901CBF32570038FAEA /* Launch Screen.storyboard */; };
-		76548F941CBF34250038FAEA /* About Dezoito.htm in Resources */ = {isa = PBXBuildFile; fileRef = 76548F921CBF34250038FAEA /* About Dezoito.htm */; };
-		76548F951CBF34250038FAEA /* About Dezoito_files in Resources */ = {isa = PBXBuildFile; fileRef = 76548F931CBF34250038FAEA /* About Dezoito_files */; };
 		7668B0AF1A917B4D00384D71 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668B0AE1A917B4D00384D71 /* SettingsViewController.m */; };
 		7676BFE31AF6441B00C826D0 /* section solved.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7676BFE21AF6441B00C826D0 /* section solved.mp3 */; };
 		767EAD491B2E61FD001643C0 /* DezoitoImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 767EAD481B2E61FD001643C0 /* DezoitoImage.png */; };
 		7687BA9A19A7DE5F007DA24B /* PuzzleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7687BA9919A7DE5F007DA24B /* PuzzleView.m */; };
 		7687BA9D19A7DEB0007DA24B /* PuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7687BA9C19A7DEB0007DA24B /* PuzzleViewController.m */; };
+		768D9A341D8C462500BCC9A2 /* About Dezoito.htm in Resources */ = {isa = PBXBuildFile; fileRef = 768D9A321D8C462500BCC9A2 /* About Dezoito.htm */; };
+		768D9A351D8C462500BCC9A2 /* About Dezoito.fld in Resources */ = {isa = PBXBuildFile; fileRef = 768D9A331D8C462500BCC9A2 /* About Dezoito.fld */; };
 		76A12F231AB8582A00CF38EF /* puzzle solved.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 76A12F221AB8582A00CF38EF /* puzzle solved.mp3 */; };
 		76A32F3E1AE86FD400FF74C1 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A32F3D1AE86FD400FF74C1 /* AboutViewController.m */; };
 		76A32F411AE871A400FF74C1 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A32F401AE871A400FF74C1 /* HelpViewController.m */; };
@@ -42,7 +42,6 @@
 		76A76CB119230B3700D6EDAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76A76CAF19230B3700D6EDAD /* InfoPlist.strings */; };
 		76A76CB319230B3700D6EDAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A76CB219230B3700D6EDAD /* main.m */; };
 		76A76CB719230B3700D6EDAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A76CB619230B3700D6EDAD /* AppDelegate.m */; };
-		76A76CBA19230B3700D6EDAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A76CB819230B3700D6EDAD /* Main.storyboard */; };
 		76A76CBD19230B3700D6EDAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A76CBC19230B3700D6EDAD /* ViewController.m */; };
 		76A76CBF19230B3700D6EDAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A76CBE19230B3700D6EDAD /* Images.xcassets */; };
 		76A76CC619230B3700D6EDAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A76CC519230B3700D6EDAD /* XCTest.framework */; };
@@ -60,6 +59,7 @@
 		76EE77E21AC2ECBE00AE4477 /* Statistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EE77E11AC2ECBE00AE4477 /* Statistics.m */; };
 		76F088DF1AD61EF8008074A8 /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F088DE1AD61EF8008074A8 /* StatsViewController.m */; };
 		76F0ED1E1B1910DE00E74A42 /* buttonclick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 76F0ED1B1B1910DE00E74A42 /* buttonclick.mp3 */; };
+		76FB349D1D75E67900F331D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FB349C1D75E67900F331D8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,8 +80,6 @@
 		763B398B19625241009E82EB /* Puzzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Puzzle.h; sourceTree = "<group>"; };
 		763B398C19625241009E82EB /* Puzzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Puzzle.m; sourceTree = "<group>"; };
 		76548F901CBF32570038FAEA /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
-		76548F921CBF34250038FAEA /* About Dezoito.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "About Dezoito.htm"; sourceTree = "<group>"; };
-		76548F931CBF34250038FAEA /* About Dezoito_files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "About Dezoito_files"; sourceTree = "<group>"; };
 		7668B0AD1A917B4D00384D71 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		7668B0AE1A917B4D00384D71 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		7676BFE21AF6441B00C826D0 /* section solved.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "section solved.mp3"; sourceTree = "<group>"; };
@@ -90,6 +88,8 @@
 		7687BA9919A7DE5F007DA24B /* PuzzleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleView.m; sourceTree = "<group>"; };
 		7687BA9B19A7DEB0007DA24B /* PuzzleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleViewController.h; sourceTree = "<group>"; };
 		7687BA9C19A7DEB0007DA24B /* PuzzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleViewController.m; sourceTree = "<group>"; };
+		768D9A321D8C462500BCC9A2 /* About Dezoito.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "About Dezoito.htm"; sourceTree = "<group>"; };
+		768D9A331D8C462500BCC9A2 /* About Dezoito.fld */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "About Dezoito.fld"; sourceTree = "<group>"; };
 		76A12F221AB8582A00CF38EF /* puzzle solved.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "puzzle solved.mp3"; sourceTree = "<group>"; };
 		76A32F3C1AE86FD400FF74C1 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		76A32F3D1AE86FD400FF74C1 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
@@ -120,7 +120,6 @@
 		76A76CB419230B3700D6EDAD /* Dezoito-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dezoito-Prefix.pch"; sourceTree = "<group>"; };
 		76A76CB519230B3700D6EDAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76A76CB619230B3700D6EDAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		76A76CB919230B3700D6EDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76A76CBB19230B3700D6EDAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		76A76CBC19230B3700D6EDAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		76A76CBE19230B3700D6EDAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -143,6 +142,7 @@
 		76F088DD1AD61EF8008074A8 /* StatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatsViewController.h; path = ../StatsViewController.h; sourceTree = "<group>"; };
 		76F088DE1AD61EF8008074A8 /* StatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatsViewController.m; path = ../StatsViewController.m; sourceTree = "<group>"; };
 		76F0ED1B1B1910DE00E74A42 /* buttonclick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonclick.mp3; sourceTree = "<group>"; };
+		76FB349C1D75E67900F331D8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,8 +236,8 @@
 				7676BFE21AF6441B00C826D0 /* section solved.mp3 */,
 				76A12F221AB8582A00CF38EF /* puzzle solved.mp3 */,
 				767EAD481B2E61FD001643C0 /* DezoitoImage.png */,
-				76548F921CBF34250038FAEA /* About Dezoito.htm */,
-				76548F931CBF34250038FAEA /* About Dezoito_files */,
+				768D9A321D8C462500BCC9A2 /* About Dezoito.htm */,
+				768D9A331D8C462500BCC9A2 /* About Dezoito.fld */,
 				76DDD9131B2FAAEA005D2111 /* DezoitoHelp.htm */,
 				76DDD9141B2FAAEA005D2111 /* DezoitoHelp_files */,
 				76A355CE1AD8125C008DC4EF /* settings@3x.png */,
@@ -288,7 +288,7 @@
 		76D28E9519930F770042BC46 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				76A76CB819230B3700D6EDAD /* Main.storyboard */,
+				76FB349C1D75E67900F331D8 /* Main.storyboard */,
 				76548F901CBF32570038FAEA /* Launch Screen.storyboard */,
 				76A76CBB19230B3700D6EDAD /* ViewController.h */,
 				76A76CBC19230B3700D6EDAD /* ViewController.m */,
@@ -353,7 +353,7 @@
 		76A76C9B19230B3700D6EDAD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Ed Ballington";
 				TargetAttributes = {
 					76A76CA219230B3700D6EDAD = {
@@ -396,7 +396,7 @@
 				76A355E71AD81818008DC4EF /* number_0@1.5x.png in Resources */,
 				76A355DB1AD817DE008DC4EF /* number_ 3@1.5x.png in Resources */,
 				76A355D11AD8131B008DC4EF /* stats@3x.png in Resources */,
-				76548F941CBF34250038FAEA /* About Dezoito.htm in Resources */,
+				768D9A341D8C462500BCC9A2 /* About Dezoito.htm in Resources */,
 				76A76CBF19230B3700D6EDAD /* Images.xcassets in Resources */,
 				76DDD9061B2F26BA005D2111 /* Rules.png in Resources */,
 				76A355D31AD8136A008DC4EF /* about@3x.png in Resources */,
@@ -404,16 +404,16 @@
 				76328CBB1AEC623300227BE1 /* Media.xcassets in Resources */,
 				76A355E31AD81807008DC4EF /* number_7@1.5x.png in Resources */,
 				76A355E51AD8180F008DC4EF /* number_8@1.5x.png in Resources */,
+				76FB349D1D75E67900F331D8 /* Main.storyboard in Resources */,
 				76DDD9161B2FAAEA005D2111 /* DezoitoHelp_files in Resources */,
 				76A355DD1AD817E9008DC4EF /* number_4@1.5x.png in Resources */,
 				7676BFE31AF6441B00C826D0 /* section solved.mp3 in Resources */,
 				76A355DF1AD817F7008DC4EF /* number_5@1.5x.png in Resources */,
 				76A12F231AB8582A00CF38EF /* puzzle solved.mp3 in Resources */,
+				768D9A351D8C462500BCC9A2 /* About Dezoito.fld in Resources */,
 				76A355D71AD8174A008DC4EF /* number_1@1.5x.png in Resources */,
 				76A76CB119230B3700D6EDAD /* InfoPlist.strings in Resources */,
 				76B773741AA3E6760089CDFD /* Deliberate Thought.mp3 in Resources */,
-				76548F951CBF34250038FAEA /* About Dezoito_files in Resources */,
-				76A76CBA19230B3700D6EDAD /* Main.storyboard in Resources */,
 				76A355E11AD817FF008DC4EF /* number_6@1.5x.png in Resources */,
 				76A355CF1AD8125C008DC4EF /* settings@3x.png in Resources */,
 				76A355D51AD81395008DC4EF /* help@3x.png in Resources */,
@@ -486,14 +486,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		76A76CB819230B3700D6EDAD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				76A76CB919230B3700D6EDAD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		76A76CCE19230B3700D6EDAD /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -523,6 +515,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -586,6 +579,7 @@
 				GCC_PREFIX_HEADER = "Dezoito/Dezoito-Prefix.pch";
 				INFOPLIST_FILE = "Dezoito/Dezoito-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ballington.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -604,6 +598,7 @@
 				GCC_PREFIX_HEADER = "Dezoito/Dezoito-Prefix.pch";
 				INFOPLIST_FILE = "Dezoito/Dezoito-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ballington.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -627,6 +622,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "DezoitoTests/DezoitoTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ballington.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -645,6 +641,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dezoito/Dezoito-Prefix.pch";
 				INFOPLIST_FILE = "DezoitoTests/DezoitoTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ballington.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

@@ -55,6 +55,7 @@ UIColor *lockedCellFontColor;
 
 - (void) awakeFromNib
 {
+    [super awakeFromNib];
     [self setup];
 }
 
@@ -71,8 +72,6 @@ UIColor *lockedCellFontColor;
         }
     
     /* Size, color, and line type drawing variables */
-    cellSize = self.bounds.size.width/8;  /*8 cells across */
-    boxSize = cellSize*BOX_SCALE_FACTOR; /* box to draw cell contents in */
     squareLineWidth = 1.0;
     diamondLineWidth = 1.0;
     cellLineColor = [UIColor CELL_LINE_COLOR];
@@ -93,6 +92,9 @@ UIColor *lockedCellFontColor;
 #pragma mark Define and draw cell boundaries
     
     // Drawing code for puzzle grid - leave lines unstroked so dashed and solid lines can be drawn separately.
+    
+    cellSize = self.bounds.size.width/8;  /*8 cells across */
+    boxSize = cellSize*BOX_SCALE_FACTOR; /* box to draw cell contents in */
     
     /* path variable names match corresponding cell numbers */
   

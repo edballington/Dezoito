@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		762389631B16B19800B3027F /* settingsbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 762389621B16B19800B3027F /* settingsbar.png */; };
 		76314C741B2677DF008B3D9A /* puzzlelist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76314C731B2677DF008B3D9A /* puzzlelist.plist */; };
-		76328CBB1AEC623300227BE1 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76328CBA1AEC623300227BE1 /* Media.xcassets */; };
 		763B398D19625241009E82EB /* Puzzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 763B398C19625241009E82EB /* Puzzle.m */; };
 		76548F911CBF32570038FAEA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76548F901CBF32570038FAEA /* Launch Screen.storyboard */; };
 		7668B0AF1A917B4D00384D71 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668B0AE1A917B4D00384D71 /* SettingsViewController.m */; };
@@ -76,7 +75,6 @@
 		760DC5171AB4EA0800DFA718 /* SettingsConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsConstants.h; sourceTree = "<group>"; };
 		762389621B16B19800B3027F /* settingsbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsbar.png; sourceTree = "<group>"; };
 		76314C731B2677DF008B3D9A /* puzzlelist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = puzzlelist.plist; sourceTree = "<group>"; };
-		76328CBA1AEC623300227BE1 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Media.xcassets/Media.xcassets; sourceTree = "<group>"; };
 		763B398B19625241009E82EB /* Puzzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Puzzle.h; sourceTree = "<group>"; };
 		763B398C19625241009E82EB /* Puzzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Puzzle.m; sourceTree = "<group>"; };
 		76548F901CBF32570038FAEA /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -229,7 +227,6 @@
 		76A76CAD19230B3700D6EDAD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				76328CBA1AEC623300227BE1 /* Media.xcassets */,
 				76A76CBE19230B3700D6EDAD /* Images.xcassets */,
 				76F0ED1B1B1910DE00E74A42 /* buttonclick.mp3 */,
 				76B773731AA3E6760089CDFD /* Deliberate Thought.mp3 */,
@@ -353,7 +350,7 @@
 		76A76C9B19230B3700D6EDAD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Ed Ballington";
 				TargetAttributes = {
 					76A76CA219230B3700D6EDAD = {
@@ -401,7 +398,6 @@
 				76DDD9061B2F26BA005D2111 /* Rules.png in Resources */,
 				76A355D31AD8136A008DC4EF /* about@3x.png in Resources */,
 				76DDD9151B2FAAEA005D2111 /* DezoitoHelp.htm in Resources */,
-				76328CBB1AEC623300227BE1 /* Media.xcassets in Resources */,
 				76A355E31AD81807008DC4EF /* number_7@1.5x.png in Resources */,
 				76A355E51AD8180F008DC4EF /* number_8@1.5x.png in Resources */,
 				76FB349D1D75E67900F331D8 /* Main.storyboard in Resources */,
@@ -505,14 +501,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -535,7 +539,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -549,14 +553,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -572,7 +584,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -585,14 +597,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CZDK9JC4YC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dezoito/Dezoito-Prefix.pch";
 				INFOPLIST_FILE = "Dezoito/Dezoito-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ballington.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -604,14 +617,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CZDK9JC4YC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dezoito/Dezoito-Prefix.pch";
 				INFOPLIST_FILE = "Dezoito/Dezoito-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ballington.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
